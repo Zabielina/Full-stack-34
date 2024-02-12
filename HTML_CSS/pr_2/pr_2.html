@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практична 2</title>
+</head>
+
+<body>
+    <style>
+        .block {
+            height: 600px;
+            background-color: orange;
+            display: grid;
+            align-items: center;
+        }
+
+        .red {
+            background-color: red;
+            position: absolute;
+            z-index: 1;
+            display: grid;
+            grid-template-columns: repeat(4, 85px);
+            grid-template-rows: 200px 200px;
+        }
+
+        .green {
+            background-color: green;
+            position: absolute;
+            z-index: 2;
+            display: grid;
+            grid-template-columns: repeat(4, 85px);
+            grid-template-rows: 200px 200px;
+            margin-left: 24%;
+        }
+
+        .blue {
+            background-color: blue;
+            position: absolute;
+            z-index: 3;
+            display: grid;
+            grid-template-columns: repeat(4, 85px);
+            grid-template-rows: 200px 200px;
+            margin-left: 48.7%;
+
+        }
+
+        .black {
+            background-color: black;
+            position: absolute;
+            z-index: 4;
+            display: grid;
+            grid-template-columns: repeat(4, 86px);
+            grid-template-rows: 200px 200px;
+            margin-left: 73.6%;
+        }
+    </style>
+    <div class="block">
+        <div class="red"></div>
+        <div class="green"></div>
+        <div class="blue"></div>
+        <div class="black"></div>
+    </div>
+</body>
+
+</html>

@@ -1,4 +1,4 @@
-body {
+/* body {
     margin: 0;
     height: 1440px;
     
@@ -37,9 +37,9 @@ justify-content: center;
     margin: 40px ;
    
     
-}
+} */
 
-.content {
+/* .content {
     border: thick double rgb(150, 148, 146);
    padding: 15px;
     display: flex;
@@ -50,14 +50,14 @@ justify-content: center;
     margin-top: 4%;
     position: absolute;
     z-index: 1;
-   }
+   } */
 
-h2 {
+/* h2 {
     text-align: center;
     padding: 20px;
-}
+} */
 
-.block{
+/* .block{
     border: thick double rgb(158, 157, 157);
     padding: 15px;
    display: flex;
@@ -75,8 +75,8 @@ h2 {
    
     
 
-}
-.rrr{
+} */
+/* .rrr{
    
 display: flex;
 position: absolute;
@@ -86,8 +86,8 @@ margin-top: 50%;
 ;
 
 
-}
-.text_1{
+} */
+/* .text_1{
    
     border: thick double rgb(134, 133, 132);
     padding: 55px;
@@ -133,7 +133,7 @@ margin-top: 50%;
     margin-top: 80%;
     margin-left: 45%;
     font-size: 25px;
-}
+} */
 
 @media screen and (min-width: 270px) and (max-width:410px){
     .NAVI{
